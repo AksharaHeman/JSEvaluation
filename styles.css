@@ -1,0 +1,115 @@
+#headerdiv{
+    background-color: navy;
+    height: auto;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnheader{
+    border: none;
+    border-radius: 50px 50px;
+    padding: 2px 20px;
+    font-weight: bold;
+}
+
+.headerul{
+    list-style-type: none;
+    
+}
+
+.headerul li.left{
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.headerul li.right{
+    float: right;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#btnheader:hover{
+    color: black;
+}
+
+i{
+    color: white;
+}
+
+#navdiv{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.navul{
+    list-style-type: none;
+}
+
+.navlistleft{
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+.navlist{
+    float: right;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 20px;
+}
+
+#navdiv .navul .navlist a{
+    text-decoration: none;
+    color: black;
+}
+
+.leftdiv{
+    width: 50%;
+    float: left;
+    padding: 1%;
+    
+} 
+.videodiv{
+    padding: 100px;
+    width: 50%;
+    float: left;
+}
+
+#footerdiv{
+    background-color: rgb(56, 56, 153);
+    color: white;
+}
+
+table,tr,th,td{
+    padding: 20px;
+}
+
+th{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#btnapply{
+    border: none;
+    border-radius: 50px 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: navy;
+    color: white;
+
+}
